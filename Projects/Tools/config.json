@@ -1,0 +1,125 @@
+{
+    "Studio Location" : "C:\\Projects",
+
+    "File Ignore List" : ["Tools", ".json", "User", ".maya", ".txt"],
+
+    "DCC" : 
+    {
+        "Houdini" : {
+            "Version" : "16.0.600",
+            "Subfolders" : ["sim", "hda", "tex", "render", "abc", "scripts", "flip", "comp", "video", "desk", "audio", "geo", "backup"],
+            "Icon" : "C:\\Projects\\Tools\\Houdini.png", 
+            "Exe" : "C:\\Program Files\\Side Effects Software\\Houdini 16.0.600\\bin\\houdinifx.exe",
+            "Scripts" : "",
+            "Interface" : ""
+        },
+        "Maya" : {
+            "Version" : "2017",
+            "Subfolders" : ["scenes", "assets", "images", "sourceimages", "renderData", "clips", "sound", "scripts", "data", "movies", "autosave"],
+            "Icon" : "C:\\Projects\\Tools\\Maya.png", 
+            "Exe" : "C:\\Program Files\\Autodesk\\Maya2017\\bin\\maya.exe",
+            "Scripts" : "",
+            "Interface" : ""
+       },
+       "Photoshop" : {
+            "Version" : "CC 2015",
+            "Subfolders" : ["jpg", "png", "tga", "scripts"],
+            "Icon" : "C:\\Projects\\Tools\\Photoshop.png", 
+            "Exe" : "C:\\Program Files\\Adobe\\Adobe Photoshop CC 2015.5\\Photoshop.exe",
+            "Scripts" : "",
+            "Interface" : ""
+       },
+       "Substance Painter" : {
+            "Version" : "2",
+            "Subfolders" : [],
+            "Icon" : "C:\\Projects\\Tools\\SubstancePainter.png", 
+            "Exe" : "C:\\Program Files\\Allegorithmic\\Substance Painter 2\\Substance Painter 2.exe",
+            "Scripts" : "",
+            "Interface" : ""
+       },
+       "Substance Designer" : {
+            "Version" : "5",
+            "Subfolders" : [],
+            "Icon" : "C:\\Projects\\Tools\\SubstanceDesigner.png", 
+            "Exe" : "C:\\Program Files\\Allegorithmic\\Substance Designer 5\\Substance Designer.exe",
+            "Scripts" : "",
+            "Interface" : ""
+       },
+       "ZBrush" : {
+            "Version" : "4R7 FL",
+            "Subfolders" : [],
+            "Icon" : "C:\\Projects\\Tools\\ZBrush.png", 
+            "Exe" : "C:\\Program Files (x86)\\Pixologic\\ZBrush 4R7 FL\\ZBrush64.exe",
+            "Scripts" : "",
+            "Interface" : ""
+       }
+    },
+    "Asset Types" : {
+        "sm" : {
+            "Name" : "Static Mesh",
+            "Prefix" : "SM_" ,
+            "Suffix" : ""
+        },
+        "sk" : {
+            "Name" : "Skeletal Mesh",
+            "Prefix" : "SK_" ,
+            "Suffix" : ""
+        },
+        "td" : {
+            "Name" : "Texture Base Color",
+            "Prefix" : "T_" ,
+            "Suffix" : "_BC"
+        },
+        "tn" : {
+            "Name" : "Texture Normal",
+            "Prefix" : "T_" ,
+            "Suffix" : "_N"
+        },
+         "tm" : {
+            "Name" : "Texture Mask",
+            "Prefix" : "T_" ,
+            "Suffix" : "_M"
+        },
+         "tmsr" : {
+            "Name" : "Texture Metal/Spec/Rough",
+            "Prefix" : "T_" ,
+            "Suffix" : "_MSR"
+        },
+         "tdp" : {
+            "Name" : "Texture Displacement",
+            "Prefix" : "T_" ,
+            "Suffix" : "_DP"
+        },
+         "a" : {
+            "Name" : "Animation Sequence",
+            "Prefix" : "A_" ,
+            "Suffix" : ""
+        }
+    },
+    "Real-Time Art Structure" :
+    {
+        "Structure" : ["Art Source", "Art Exports", "Tools"],
+        "Asset Type" : ["Characters", "Environment"],
+        "Source Asset" : ["Maya", "ZBrush", "Houdini", "Photoshop", "Substance Painter", "Substance Designer", "UV Snapshots", "Temp Mesh Files", "Concept Art"],
+        "Export Asset" : ["Animations", "Meshes", "Textures"]    
+    },
+    "Pre-Rendered Art Structure" :
+    {
+        "Structure" : ["Art Source", "Preproduction", "Production", "Postproduction", "Tools"],
+        "Asset Type" : ["Characters", "Environment"],
+        "Source Asset" : ["Maya", "ZBrush", "Houdini", "Photoshop", "Substance Painter", "Substance Designer", "UV Snapshots", "Temp Mesh Files", "Concept Art"],
+        "Export Asset" : ["Animations", "Meshes", "Textures"]    
+    },
+    "Engine Content Structure" :
+    {
+        "Content" : ["Meshes", "Effects", "Sounds", "Blueprints", "Levels"],
+        "Meshes" : ["3DAsset"],
+        "Blueprints" : ["Asset"],
+        "Effects" : ["LUT", "Materials", "Particles"],
+        "Sounds" : ["Ambient", "SFX"],
+        "Levels" : ["Aesthetic_Level", "Art_Test", "Mechanical_Level", "Programming_Test"],
+        "SFX" : ["Asset"],
+        "3DAsset" : ["Materials", "Textures", "Meshes"],
+        "Asset" : ["AssetName"]    
+    }
+}
